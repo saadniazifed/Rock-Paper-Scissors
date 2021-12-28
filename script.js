@@ -1,3 +1,4 @@
+// Computer generating a choice randomly.
 function computerPlay() {
   let computerChoice = Math.random() * 10;
   if (computerChoice <= 3) {
@@ -9,6 +10,7 @@ function computerPlay() {
   }
 }
 
+// Player selecting his choice.
 function playerChoice() {
   const playerSelection = prompt(
     "Choose your weapon: Rock, Paper or Scissors: "
@@ -17,6 +19,7 @@ function playerChoice() {
   return playerSelection.toLowerCase();
 }
 
+// Storing the Computer's and Player's choice in variables.
 let playerSelection = playerChoice();
 let computerSelection = computerPlay();
 
@@ -115,6 +118,7 @@ function game() {
     tiePoints++;
   }
 
+  // Calculating the Winner.
   if (playerPoints > computerPoints) {
     console.log("PLAYER WINS. CONGRATULATIONS!");
   } else if (computerPoints > playerPoints) {
