@@ -1,4 +1,4 @@
-# Rock-Paper-Scissors
+## Rock-Paper-Scissors
 A fully functional Rock Paper Scissors game which can be played against the Computer.
 
 The third project in the Foundation section of [The Odin Project](https://www.theodinproject.com/).
